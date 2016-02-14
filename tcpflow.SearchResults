@@ -1,0 +1,6 @@
+---- FLOW_FINISHED Matches (5 in 3 files) ----
+Flow.c (src):    SET_BIT(flow_state->flags, FLOW_FINISHED);
+Tcpflow.h (src):#define FLOW_FINISHED		(1 << 0)
+Tcpip.c (src):  if (IS_SET(state->flags, FLOW_FINISHED))
+Tcpip.c (src):    SET_BIT(state->flags, FLOW_FINISHED);
+Tcpip.c (src):  if (IS_SET(state->flags, FLOW_FINISHED)) {
